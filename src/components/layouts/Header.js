@@ -1,21 +1,26 @@
 function Header() {
   return (
-    <header className="fixed top-0 left-0 w-full h-[60px] bg-indigo-100 navbar">
-      <div className="w-[70%] justify-between items-center h-full flex relative left-[15%]">
-        <div>
-          <a href="#home">Home</a>
-        </div>
-        <ul className="flex w-[25%] justify-between">
-          <li>
-            <a href="#about">About Me</a>
-          </li>
-          <li>
-            <a href="#skills">Skills</a>
-          </li>
-          <li>
-            <a href="#projects">Projects</a>
-          </li>
-        </ul>
+    <header className="fixed top-0 right-20 w-[30%] h-[60px] bg-black/80 navbar text-white flex justify-around items-center text-xl rounded-b-3xl text-opacity-70">
+      <div>
+        <a className="hover:text-opacity-100 hover:text-white" href="#home">
+          Home
+        </a>
+      </div>
+
+      <div>
+        <a className="hover:text-opacity-100 hover:text-white" href="#about">
+          About Me
+        </a>
+      </div>
+      <div>
+        <a className="hover:text-opacity-100 hover:text-white" href="#skills">
+          Skills
+        </a>
+      </div>
+      <div>
+        <a className="hover:text-opacity-100 hover:text-white" href="#projects">
+          Projects
+        </a>
       </div>
     </header>
   );
