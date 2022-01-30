@@ -43,3 +43,8 @@ html {
 .animate-pulse1 {
   animation: pulse1 1s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
+.home_bg {
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    url(../images/home_bg.jpg);
+  background-size: cover;
+}
