@@ -2,6 +2,7 @@ import hcj from '../../assets/images/hcj.png';
 import react from '../../assets/images/logo512.png';
 import recoil from '../../assets/images/recoil.svg';
 import tailwind from '../../assets/images/tailwind.png';
+import tailwind1 from '../../assets/images/tailwind.svg';
 import java from '../../assets/images/java.png';
 import orecle from '../../assets/images/oracle.png';
 import git from '../../assets/images/git.PNG';
@@ -16,7 +17,7 @@ function Skills() {
             <img src={hcj} className="h-[50%]" />
             <img src={react} className="h-[50%]" />
             <img src={recoil} className="h-[50%]" />
-            <img src={tailwind} className="h-[50%]" />
+            <img src={tailwind1} className="w-[40%]" />
           </div>
           <div className="flex w-full h-[48%] bg-white">
             <img src={java} />
