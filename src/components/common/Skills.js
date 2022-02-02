@@ -9,9 +9,9 @@ import github from '../../assets/images/github.png';
 
 function Skills() {
   return (
-    <div id="skills" className="w-full p-8 bg-[#00adb5]/50">
-      <h1 className="text-5xl text-center mb-7 font-nanum-eb">SKILLS</h1>
-      <div className="w-full h-[400px] justify-center items-center flex">
+    <div id="skills" className="w-full p-10 bg-[#00adb5]/50">
+      <h1 className="mb-10 text-5xl text-center font-nanum-eb">SKILLS</h1>
+      <div className="w-full h-[50vh] justify-center items-center flex">
         <div className="w-[70%] h-full flex flex-col justify-between">
           <div className="flex flex-col w-full bg-white h-[48%] rounded-xl">
             <h1 className="pl-4 py-2 text-2xl font-nanum-eb text-[#00adb5]/80">
