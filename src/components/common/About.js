@@ -19,7 +19,7 @@ function About() {
         </h1>
       </div>
       <div className="flex justify-center w-full mt-10">
-        <div className="w-[40%] justify-around flex">
+        <div className="w-[40%] justify-around flex xl:w-[60%]">
           <div className="flex items-center justify-center">
             <BsFillTelephoneFill size="25" />
             <div className="ml-2 text-xl">010-6292-7950</div>

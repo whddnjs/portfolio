@@ -17,9 +17,9 @@ function Home() {
   return (
     <div
       id="home"
-      className="flex items-center justify-center h-[80vh] home_bg"
+      className="flex items-center justify-center h-[80vh] home_bg w-full xl:h-[60vh]"
     >
-      <div className="text-white text-7xl font-nanum-bold text"></div>
+      <div className="text-white text-7xl font-nanum-bold text xl:text-5xl"></div>
       <div className="text-white animate-pulse1 text-8xl font-nanum-bold">
         |
       </div>
