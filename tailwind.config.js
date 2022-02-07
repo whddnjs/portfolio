@@ -2,9 +2,8 @@ module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     screens: {
-      xl: { max: '1536px' },
-      md: { max: '992px' },
-      xs: { max: '576px' },
+      lg: { max: '1200px' },
+      sm: { max: '768px' },
     },
     extend: {
       fontFamily: {

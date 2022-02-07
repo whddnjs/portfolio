@@ -4,7 +4,7 @@ import { BsFillTelephoneFill } from 'react-icons/bs';
 
 function About() {
   return (
-    <div id="about" className="py-10 w-full h-[40vh] bg-[#eee]">
+    <div id="about" className="py-10 w-full bg-[#eee]">
       <h1 className="text-5xl text-center mb-7 font-nanum-eb">About Me</h1>
       <div className="flex justify-center w-full">
         <h1 className="text-lg leading-8 ">
@@ -19,7 +19,7 @@ function About() {
         </h1>
       </div>
       <div className="flex justify-center w-full mt-10">
-        <div className="w-[40%] justify-around flex xl:w-[60%]">
+        <div className="w-[60%] justify-around flex">
           <div className="flex items-center justify-center">
             <BsFillTelephoneFill size="25" />
             <div className="ml-2 text-xl">010-6292-7950</div>

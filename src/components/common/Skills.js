@@ -12,12 +12,12 @@ function Skills() {
     <div id="skills" className="w-full p-10 bg-[#00adb5]/50">
       <h1 className="mb-10 text-5xl text-center font-nanum-eb">SKILLS</h1>
       <div className="w-full h-[50vh] justify-center items-center flex">
-        <div className="w-[70%] h-full flex flex-col justify-between xl:w-full">
+        <div className="flex flex-col justify-between h-full">
           <div className="flex flex-col w-full bg-white h-[48%] rounded-xl">
             <h1 className="pl-4 py-2 text-2xl font-nanum-eb text-[#00adb5]/80">
               Front-end
             </h1>
-            <div className="flex w-full h-[80%] ml-4">
+            <div className="flex w-full h-[80%] px-10">
               <img src={hcj} className="h-[90%]" />
               <img src={react} className="h-[75%] mt-3 ml-4" />
               <div className="mt-3 ml-8">

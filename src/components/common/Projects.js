@@ -24,14 +24,14 @@ function Projects() {
       <h1 className="text-5xl text-center text-white mb-7 font-nanum-eb">
         PROJECTS
       </h1>
-      <div className="flex flex-col justify-around items-center h-[160vh]">
-        <div className="bg-white w-[80%] h-[50%] rounded-2xl p-10 xl:w-[95%]">
+      <div className="flex flex-col items-center">
+        <div className="bg-white w-[80%] rounded-2xl p-6 mb-6">
           <h1 className="text-5xl text-center font-nanum-eb">Octopus Game</h1>
           <h1 className="my-4 text-lg text-center font-nanum-bold text-[#666]">
             2021.10 ~ 2021.11 (5인 팀 프로젝트)
           </h1>
-          <div className="w-full h-[55vh] flex justify-around">
-            <div className="bg-white h-full w-[60%] overflow-hidden">
+          <div className="flex justify-around w-full">
+            <div className="bg-white w-[60%] overflow-hidden">
               <Slider {...settings}>
                 <div>
                   <img src={game_main} />
@@ -97,13 +97,13 @@ function Projects() {
             </div>
           </div>
         </div>
-        <div className="bg-white w-[80%] h-[45%] rounded-2xl p-10 xl:w-[95%]">
+        <div className="bg-white w-[80%] rounded-2xl p-10">
           <h1 className="text-5xl text-center font-nanum-eb">AEGIS</h1>
           <h1 className="my-4 text-lg text-center font-nanum-bold text-[#666]">
             2021.11 ~ 2021.12 (5인 팀 프로젝트)
           </h1>
-          <div className="w-full h-[55vh] flex justify-around ">
-            <div className="bg-white h-full w-[60%] overflow-hidden">
+          <div className="flex justify-around w-full ">
+            <div className="bg-white w-[60%] overflow-hidden">
               <Slider {...settings}>
                 <div>
                   <img src={aegis1} />
@@ -116,7 +116,7 @@ function Projects() {
                 </div>
               </Slider>
             </div>
-            <div className="bg-white h-full w-[35%]">
+            <div className="bg-white w-[35%]">
               <span className="leading-7">
                 국비학원 2차 팀 프로젝트때 만든 작업장 통합 모니터링
                 웹사이트입니다. 그중 React를 사용해 웹 프론트 파트를
