@@ -21,17 +21,19 @@ function Projects() {
 
   return (
     <div id="projects" className="py-10 w-full bg-[#393e46]">
-      <h1 className="text-5xl text-center text-white mb-7 font-nanum-eb">
+      <h1 className="text-5xl text-center text-white mb-7 font-nanum-eb sm:text-4xl">
         PROJECTS
       </h1>
       <div className="flex flex-col items-center">
-        <div className="bg-white w-[80%] rounded-2xl p-6 mb-6">
-          <h1 className="text-5xl text-center font-nanum-eb">Octopus Game</h1>
+        <div className="bg-white w-[80%] rounded-2xl p-6 mb-6 lg:w-[90%]">
+          <h1 className="text-5xl text-center font-nanum-eb sm:text-4xl">
+            Octopus Game
+          </h1>
           <h1 className="my-4 text-lg text-center font-nanum-bold text-[#666]">
             2021.10 ~ 2021.11 (5인 팀 프로젝트)
           </h1>
-          <div className="flex justify-around w-full">
-            <div className="bg-white w-[60%] overflow-hidden">
+          <div className="flex justify-around w-full lg:flex-col">
+            <div className="bg-white w-[60%] overflow-hidden lg:w-full">
               <Slider {...settings}>
                 <div>
                   <img src={game_main} />
@@ -50,7 +52,7 @@ function Projects() {
                 </div>
               </Slider>
             </div>
-            <div className="bg-white h-full w-[35%]">
+            <div className="bg-white h-full w-[35%] lg:w-full">
               <span className="leading-7">
                 국비학원 1차 팀 프로젝트때 만든 아두이노로 만든 게임패드를
                 이용해 플레이 할 수 있는 플래시게임 웹사이트입니다. 당시
@@ -97,13 +99,15 @@ function Projects() {
             </div>
           </div>
         </div>
-        <div className="bg-white w-[80%] rounded-2xl p-10">
-          <h1 className="text-5xl text-center font-nanum-eb">AEGIS</h1>
+        <div className="bg-white w-[80%] rounded-2xl p-10 lg:w-[90%]">
+          <h1 className="text-5xl text-center font-nanum-eb sm:text-4xl">
+            AEGIS
+          </h1>
           <h1 className="my-4 text-lg text-center font-nanum-bold text-[#666]">
             2021.11 ~ 2021.12 (5인 팀 프로젝트)
           </h1>
-          <div className="flex justify-around w-full ">
-            <div className="bg-white w-[60%] overflow-hidden">
+          <div className="flex justify-around w-full lg:flex-col">
+            <div className="bg-white w-[60%] overflow-hidden lg:w-full">
               <Slider {...settings}>
                 <div>
                   <img src={aegis1} />
@@ -116,7 +120,7 @@ function Projects() {
                 </div>
               </Slider>
             </div>
-            <div className="bg-white w-[35%]">
+            <div className="bg-white w-[35%] lg:w-full">
               <span className="leading-7">
                 국비학원 2차 팀 프로젝트때 만든 작업장 통합 모니터링
                 웹사이트입니다. 그중 React를 사용해 웹 프론트 파트를

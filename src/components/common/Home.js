@@ -17,10 +17,10 @@ function Home() {
   return (
     <div
       id="home"
-      className="flex items-center justify-center h-[70vh] home_bg w-full"
+      className="flex items-center justify-center h-[70vh] home_bg w-full text-white sm:h-[50vh]"
     >
-      <div className="text-5xl text-white font-nanum-bold text xl:text-5xl"></div>
-      <div className="text-6xl text-white animate-pulse1 font-nanum-bold">
+      <div className="text-5xl font-nanum-bold text lg:text-4xl sm:text-2xl"></div>
+      <div className="text-6xl animate-pulse1 font-nanum-bold lg:text-5xl sm:text-3xl">
         |
       </div>
     </div>

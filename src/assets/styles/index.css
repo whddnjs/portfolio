@@ -26,24 +26,11 @@
   font-family: 'nanum-acb';
   src: url(../fonts/NanumSquareOTF_acB.otf);
 }
-/* navbar style */
-/* .navbar {
-  box-shadow: 5px 0px 5px #666;
-} */
 
 html {
   scroll-behavior: smooth;
 }
-/* @media (max-width: 992px) {
-  html {
-    font-size: 12px;
-  }
-}
-@media (max-width: 576px) {
-  html {
-    font-size: 8px;
-  }
-} */
+
 /* home style */
 @keyframes pulse1 {
   50% {

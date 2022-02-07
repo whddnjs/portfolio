@@ -5,8 +5,10 @@ import { BsFillTelephoneFill } from 'react-icons/bs';
 function About() {
   return (
     <div id="about" className="py-10 w-full bg-[#eee]">
-      <h1 className="text-5xl text-center mb-7 font-nanum-eb">About Me</h1>
-      <div className="flex justify-center w-full">
+      <h1 className="text-5xl text-center mb-7 font-nanum-eb sm:text-4xl">
+        About Me
+      </h1>
+      <div className="flex justify-center w-full sm:px-10">
         <h1 className="text-lg leading-8 ">
           ▪ 어려서부터 컴퓨터를 좋아해서 자연스레 프로그래밍에 관심이
           생겼습니다.
@@ -19,12 +21,12 @@ function About() {
         </h1>
       </div>
       <div className="flex justify-center w-full mt-10">
-        <div className="w-[60%] justify-around flex">
+        <div className="w-[50%] justify-around flex lg:w-[70%] sm:flex-col">
           <div className="flex items-center justify-center">
             <BsFillTelephoneFill size="25" />
             <div className="ml-2 text-xl">010-6292-7950</div>
           </div>
-          <div className="flex items-center justify-center">
+          <div className="flex items-center justify-center sm:py-2">
             <MdEmail size="30" />
             <div className="ml-2 text-xl">kimjw7950@gmail.com</div>
           </div>
